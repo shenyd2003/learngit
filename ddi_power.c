@@ -15,6 +15,7 @@
 //   Includes and external references
 ////////////////////////////////////////////////////////////////////////////////
 #include "types.h"
+#include "types.h"
 #include "error.h"                  // Common SigmaTel Error Codes
 
 #include "hw/power/hw_power.h"
