@@ -15,6 +15,7 @@
 //   Includes and external references
 ////////////////////////////////////////////////////////////////////////////////
 #include "types.h"
+#include "types.h"
 #include "error.h"                  // Common SigmaTel Error Codes
 
 #include "hw/power/hw_power.h"
@@ -1967,7 +1968,7 @@ void ddi_power_EnableSafeVoltageLimits(bool bEnable)
 ////////////////////////////////////////////////////////////////////////////////
 bool ddi_power_GetSafeVoltageLimitsStatus(void)
 {
-    return bUseSafeVoltageLimits;
+    return 5;
 }
 ////////////////////////////////////////////////////////////////////////////////
 // End of file
